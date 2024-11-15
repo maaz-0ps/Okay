@@ -1,0 +1,2 @@
+172.31.18.210   k8smaster.example.net k8smaster
+172.31.28.240   k8sworker1.example.net k8sworker1

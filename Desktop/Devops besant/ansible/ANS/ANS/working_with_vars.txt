@@ -1,0 +1,14 @@
+---
+ - hosts: all
+   vars:
+    x: 35
+    my_numb: 8123317035
+    my_name: v Kishor Kumar shetty
+    gather_facts: false
+
+   tasks:
+   - debug:
+      msg:
+       - "The value of x is: {{x}} and type: {{x|type_debug}}"
+       - "My phone number is: {{my_numb}} and type: {{my_numb|type_debug}}"
+       - "My name is: {{my_name}} and type is: {{my_name|type_debug}}"

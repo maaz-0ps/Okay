@@ -1,0 +1,12 @@
+---
+ - name: This play is used to stop ec2 instance
+   hosts: localhost
+   connection: local
+   gather_facts: false
+   tasks:
+   - name: stopped ec2 instance
+     ec2:
+      instance_ids: i-0a1116b8b7bbb458b
+      region: us-east-2
+      state: stopped
+      wait: yes

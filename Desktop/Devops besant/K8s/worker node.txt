@@ -1,0 +1,2 @@
+kubeadm join 172.31.18.210:6443 --token 8e0h0m.upex274r8pr00bgl \
+        --discovery-token-ca-cert-hash sha256:bd09f6e0478f0ce2c0a639c7f4618a20c3e1a1a1f245e126d45d2e0e911422f4
